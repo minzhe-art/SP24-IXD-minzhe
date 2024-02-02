@@ -1,3 +1,0 @@
-# SP24-IXD-minzhe
-
-code...
