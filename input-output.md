@@ -9,14 +9,12 @@ import time
 pin41 = None
 pin1 = None
 
-
 def setup():
   global pin41, pin1
-
+  
   M5.begin()
   pin41 = Pin(41, mode=Pin.IN)
   pin1 = Pin(1, mode=Pin.OUT)
-
 
 def loop():
   global pin41, pin1
@@ -26,7 +24,6 @@ def loop():
   else:
     pin1.off()
   time.sleep_ms(20)
-
 
 if __name__ == '__main__':
   try:
